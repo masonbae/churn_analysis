@@ -1,28 +1,18 @@
 # 📊 Customer Churn Analysis Dashboard
 
-This project explores customer churn behavior using a real-world-style dataset of 10,000 bank customers. It combines **SQL**, **Excel**, and **Tableau** to uncover churn drivers, build KPIs, and create interactive dashboards that are insightful and ready for stakeholder presentations.
+This project explores customer churn behavior using a real-world-style dataset of 10,000 bank customers. It combines **SQL**, **Excel**, and **Tableau** to uncover churn drivers, build KPIs, and create interactive dashboards.
 
 ---
 
 ## 🧠 Project Overview
 
 **Goal:**  
-Analyze factors contributing to customer churn and develop visual tools to track churn KPIs and surface at-risk segments.
+Analyze factors contributing to customer churn and develop visual tools to track churn KPIs and risk factors.
 
 **Tools Used:**
-- **SQL (PostgreSQL):** Data cleaning, querying, advanced aggregations, and subqueries
-- **Excel:** Initial preprocessing, derived columns, export formatting
-- **Tableau:** Interactive dashboards with filtering, segmentation, KPIs, and visual storytelling
-
----
-
-## 📁 Dataset Overview
-
-Columns include:
-- Customer demographics: `age`, `gender`, `country`, `age_group`
-- Banking activity: `balance`, `years_with_bank`, `num_products`, `has_credit_card`, `is_active_member`
-- Customer experience: `satisfaction_score`, `has_complaint`, `card_type`
-- Target: `has_exited`, `churn_status`
+- **SQL (PostgreSQL)** 
+- **Excel** 
+- **Tableau** 
 
 ---
 
@@ -38,11 +28,9 @@ Columns include:
 
 ## 🧮 SQL Analysis Highlights
 
-- ✅ Subqueries & aggregate functions to calculate churn KPIs  
 - ✅ Churn rate breakdowns by age group, country, product usage, and complaints  
 - ✅ Multi-level joins and filtering for segmentation  
 - ✅ Subquery examples for comparing individuals to group-level averages  
-- ✅ No casting errors (`::NUMERIC` avoided for compatibility)
 
 ---
 
@@ -51,11 +39,10 @@ Columns include:
 > **insert ss**
 
 Includes:
-- 📌 **Churn Rate by Segment** (Country, Age Group, Card Type)
-- 📌 **Churn Drivers Breakdown** (Complaints, Activity, Satisfaction)
-- 📌 **High-Value At-Risk Customers** table
-- 📌 **KPI Scorecards** for total churn, churned revenue, average tenure
-- 📌 **Interactive Filters** for country, age group, complaint status
+- 📌 Churn rate pie chart
+- 📌 Customer population map 
+- 📌 Overview of all subcategories of customers
+- 📌 Average statistics by churn status
 
 ---
 
@@ -72,12 +59,7 @@ Includes:
 
 - **SQL:** Joins, GROUP BY, subqueries, filtering, aggregate logic  
 - **Data storytelling:** Communicating insights through visuals  
-- **Dashboards:** Designing recruiter-facing Tableau dashboards  
-- **ETL process:** Cleaning and enriching data using Excel and SQL
-
----
-
-
-## 📎 Screenshots
+- **Dashboards:** Designing interactive, insightful Tableau dashboards  
+- **ETL process:** Cleaning and engineering data using Excel and SQL
 
 ---
