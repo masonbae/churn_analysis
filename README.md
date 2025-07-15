@@ -2,6 +2,8 @@
 
 This project explores customer churn behavior using a real-world-style dataset of 10,000 bank customers. It combines **SQL**, **Excel**, and **Tableau** to uncover churn drivers, build KPIs, and create interactive dashboards.
 
+**Link to Tableau Public Dashboard:** https://public.tableau.com/views/customer_analysis_17525592129170/VisualizedAverageStatsbyChurnStatus?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ---
 
 ## 🧠 Project Overview
@@ -36,7 +38,7 @@ Analyze factors contributing to customer churn and develop visual tools to track
 
 ## 📊 Tableau Dashboards
 
-> **insert ss**
+> **See PDF file in repository: customer_analysis.pdf**
 
 Includes:
 - 📌 Churn rate pie chart
